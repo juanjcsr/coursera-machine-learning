@@ -18,11 +18,9 @@ for iter = 1:num_iters
     %
 
 
-    delta = (1 / m * (X * theta - y)' * X);
+    delta = (1/m * (X * theta - y)' * X)
     
-    theta = theta - alpha * delta;
-    
-    %J_history(iter) = computeCostMulti(X, y, theta);
+    theta = theta - alpha 
 
 
 
